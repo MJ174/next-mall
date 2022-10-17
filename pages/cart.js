@@ -4,6 +4,7 @@ import React, { useContext } from 'react';
 import Layout from '../components/Layout';
 import { Store } from '../utils/Store';
 import { useRouter } from 'next/router';
+import { XCircleIcon } from '@heroicons/react/outline';
 
 export default function CartScreen() {
   const router = useRouter();
