@@ -24,9 +24,7 @@ export default function ProductItem({ product }) {
         <button className="primary-button" type="button">
           Add to cart
         </button>
-             {' '}
       </div>
-         {' '}
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import Layout from '../components/Layout';
 import ProductItem from '../components/ProductItem';
 import data from '../utils/data';
-import { useContext } from 'react';
 
 export default function Home() {
   return (
