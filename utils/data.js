@@ -31,7 +31,7 @@ const data = {
       brand: 'Balenciaga',
       rating: 4.5,
       numReviews: 8,
-      countInStock: 20,
+      countInStock: 12,
       description: 'A popular shirt',
     },
     {
@@ -47,8 +47,8 @@ const data = {
       description: 'A popular shirt',
     },
     {
-      name: 'Hood Jean',
-      slug: 'hood jean',
+      name: 'Jean',
+      slug: 'jean',
       category: 'Shirts',
       image: '/images/shirt3.jpg',
       price: 1000,
@@ -72,7 +72,7 @@ const data = {
     },
     {
       name: 'W-Ralle',
-      slug: 'W-Ralle',
+      slug: 'w-Ralle',
       category: 'Outer',
       image: '/images/padding1.jpg',
       price: 645,
@@ -108,8 +108,8 @@ const data = {
     },
     {
       name: 'Le grand Chiquito',
-      slug: 'Le grand Chiquito',
-      category: 'bags',
+      slug: 'le grand Chiquito',
+      category: 'Bags',
       image: '/images/bags.jpg',
       price: 675,
       brand: 'JACQUEMUS',
