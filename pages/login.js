@@ -67,6 +67,15 @@ export default function LoginScreen() {
       toast.error(getError(err));
     }
   };
+  const naverLoginHandler = async () => {
+    try {
+      // eslint-disable-next-line no-unused-vars
+      const result = await signIn('naver', { redirect: false });
+      console.log('Naver login:' + result);
+    } catch (err) {
+      toast.error(getError(err));
+    }
+  };
 
   return (
     <Layout title="Login">
@@ -143,6 +152,15 @@ export default function LoginScreen() {
               onClick={kakaoLoginHandler}
             >
               Kakao Login
+            </button>
+          </div>
+          <div className="">
+            <button
+              className="primary-button w-full"
+              type="button"
+              onClick={naverLoginHandler}
+            >
+              Naver Login
             </button>
           </div>
         </div>
